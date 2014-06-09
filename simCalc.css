@@ -1,0 +1,65 @@
+.smallP1 {
+	color:#00F;
+	font-size:28px;
+	margin:0px;	
+	text-align:center;
+}
+.smallP2 {
+	color:#00F;
+	font-size:18px;
+	margin:0px;	
+	text-align:center;
+}
+
+h1{
+	color: #006699;
+    font-size:28px;
+}
+
+p{
+	font-size: 30px;
+}
+
+input{
+	width:500px;
+	font-size: 32px;
+}
+
+#displayTable{
+    margin: 0px auto 30px auto;
+}
+
+#tableID{
+	border: 1px solid;
+	border-radius: 3px;
+	margin: 0px auto;
+}
+
+#formID {
+
+}
+
+#mainFrame {
+	width:800px;
+	border: 1px solid;
+	border-radius:3px;
+	padding:10px 20px;
+	margin:0px auto;
+	background:#CFC;	
+}
+
+tr {
+    height: 32px;
+
+}
+
+td {
+    height:40px;
+    font-size:30px;
+}
+
+button{
+	width:250px;
+	height: 138px;
+	font-size: 80px;
+}
