@@ -35,8 +35,10 @@ input{
 	margin: 0px auto;
 }
 
-#formID {
-
+#fLike {
+	position: fixed;
+	left: 500px;
+	top: 10px;
 }
 
 #mainFrame {
@@ -45,7 +47,8 @@ input{
 	border-radius:3px;
 	padding:10px 20px;
 	margin:0px auto;
-	background:#CFC;	
+	background:#CFC;
+	clear:both;	
 }
 
 tr {
@@ -63,3 +66,5 @@ button{
 	height: 138px;
 	font-size: 80px;
 }
+
+
