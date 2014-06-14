@@ -33,11 +33,12 @@ input{
 	border: 1px solid;
 	border-radius: 3px;
 	margin: 0px auto;
-	clear: both;
 }
 
-#social {
-    margin:0px auto;
+#fLike {
+	position: fixed;
+	left: 500px;
+	top: 10px;
 }
 
 #mainFrame {
@@ -52,11 +53,12 @@ input{
 
 tr {
     height: 32px;
+
 }
 
-td{
-	font-size: 28px;
-
+td {
+    height:40px;
+    font-size:30px;
 }
 
 button{
