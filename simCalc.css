@@ -1,13 +1,13 @@
 .smallP1 {
 	color:#00F;
 	font-size:28px;
-	margin:0px;	
+	margin:8px;	
 	text-align:center;
 }
 .smallP2 {
 	color:#00F;
 	font-size:18px;
-	margin:0px;	
+	margin:8px;	
 	text-align:center;
 }
 
@@ -21,7 +21,7 @@ p{
 }
 
 input{
-	width:500px;
+	width:280px;
 	font-size: 32px;
 }
 
@@ -40,11 +40,18 @@ input{
     margin:0px auto;
 }
 
+body{
+	width: 640px;
+	height:920px;	
+	margin:0px auto;
+}
+
 #mainFrame {
-	width:800px;
+	width:640px;
+	height:920px;
 	border: 1px solid;
 	border-radius:3px;
-	padding:10px 20px;
+	padding:0px;
 	margin:0px auto;
 	background:#CFC;
 	clear:both;	
@@ -60,9 +67,11 @@ td{
 }
 
 button{
-	width:250px;
-	height: 138px;
-	font-size: 80px;
+	width:200px;
+	height: 88px;
+	font-size: 68px;
 }
+
+
 
 

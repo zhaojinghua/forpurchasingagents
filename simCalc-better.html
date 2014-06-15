@@ -1,19 +1,28 @@
 ﻿<!DOCTYPE html>
 <html lang="zh-cn">
+
+<!-- Update your html tag to include the itemscope and itemtype attributes. -->
+<html itemscope itemtype="http://schema.org/Person">
+
+
 <head>
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=yes" />
     <meta charset="utf-8">
     <title>simCalc</title>
-    <meta name="description" content="">
-    <meta name="author" content="JingHua">
     <link rel="stylesheet" type="text/css" href="simCalc.css">
+
     <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
 	<script type="text/javascript" src="https://apis.google.com/js/platform.js"></script>
     <link rel="canonical" href="http://www.cayouth.info" />
+    <!-- Add the following three tags inside head. -->
+    <meta itemprop="author" content="JingHua Zhao">	
+    <meta itemprop="name" content="Real Time Currency Calculator for Purchasing Agents">
+    <meta itemprop="description" content="Type the price of the product and the app will calculate the total amount in dollar and yuan.">
+    <meta itemprop="image" content="http://www.cayouth.info/">   
     
 </head>
 
 <body>
-	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
